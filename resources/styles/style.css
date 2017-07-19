@@ -1,0 +1,192 @@
+* {
+margin:0;
+padding :0;
+}
+html,body{
+    height:600px;
+    color:white;
+}
+html {
+    background-image: url('../images/windowsbg.png');
+}
+#top-heading {
+    margin-bottom:60px;
+    width:1400px;
+    float:left;
+ 
+}
+#top-heading h1 {
+    max-width:100px;
+  margin-left:0.2em;
+  
+  display:inline;
+  font-size: 3em;
+  
+    font-weight: 100;
+}
+#top-heading h3 {
+      max-width:100px;
+  margin:0;
+  padding-left:36.5em;
+  
+  display:inline;
+  font-size: 2em;
+
+font-weight: 100;
+}
+.container {
+    height:600px;
+    max-height:1000px;
+    width:100em;
+    margin-left: 7%;
+    margin-top: 2.5%;
+    padding-top:10px;
+}
+
+.flex-wrapper {
+
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-wrapper-big{
+    height: 500px;
+    max-height: 500px;
+    width: 100%;
+}
+
+.flex-container{
+  display: -webkit-flex;
+    display: flex;
+  
+    flex-wrap: wrap;
+}
+
+.flex-item-big {
+    background-color: cornflowerblue;
+    width: 22%;
+    height: 166px;
+    margin-left: 1%;
+    margin-top:1%
+}
+.flex-item-small {
+    background-color: cornflowerblue;
+    width: 12%;
+    height: 166px;
+    margin-left: 1%;
+    margin-top:1%
+}
+
+
+.flex-container p {
+
+    padding-top:9em;
+    padding-left:0.5em;
+
+}
+
+#mail {
+    background-image: url('../images/mail.png');
+   
+    background-size: cover;   
+}
+#mail:hover,
+#desktop:hover,
+#video:hover,
+#IE:hover,
+#store:hover,
+#people:hover,
+#calender:hover,
+#music:hover,
+#maps:hover,
+#skydrive:hover,
+#messaging:hover,
+#photos:hover,
+#weather:hover,
+#xbox:hover,
+#camera:hover
+ {
+    opacity: .7;
+}
+#desktop {
+     background-image: url('../images/desktop.jpg');
+  
+     background-size: cover;
+}
+
+#video {
+    background-image: url('../images/video.png');
+  
+     background-size: cover;
+}
+#IE {
+    background-image: url('../images/IE.jpg');
+
+     background-size: 100% 100%;
+}
+#store{
+    background-image: url('../images/store.png');
+  
+     background-size: 100% 100%;;
+
+}
+#people {
+    background-image: url('../images/people.ico');
+    
+     background-size: 100% 100%;
+
+}
+#calender {
+    background-image: url('../images/calender.png');
+  
+   background-size: 100% 100%;
+
+}
+#music {
+    background-image: url('../images/music.jpg');
+  
+   background-size: 100% 100%;
+
+}
+#maps {
+    background-image: url('../images/maps.ico');
+  
+     background-size: 100% 100%;
+
+}
+#skydrive {
+    background-image: url('../images/skydrive.png');
+  
+    background-size: 100% 100%;
+
+}
+#messaging{
+    background-image: url('../images/messaging.jpg');
+  
+    background-size: 100% 100%;
+
+}
+#photos{
+    background-image: url('../images/');
+  
+    background-size: 100% 100%;
+
+}
+#weather{
+    background-image: url('../images/weather.png');
+  
+    background-size: 100% 100%;
+
+}
+#xbox{
+    background-image: url('../images/xbox.png');
+  
+    background-size: 100% 100%;
+
+}
+#camera{
+    background-image: url('../images/camera.jpg');
+  
+    background-size: 100% 100%;
+
+}
